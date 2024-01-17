@@ -6,8 +6,7 @@ Olá, meu nome é Leonardo Ramos dos Santos, e estou em busca de oportunidades p
 
 Sou formado em Ciências da Computação e trago uma paixão genuína por tecnologia e inovação. Estou ansioso para aplicar os conhecimentos adquiridos durante minha formação acadêmica em um ambiente prático.
 
-<p>Descubra um mundo de criatividade e inovação em meu <a href="https://lramossantos.github.io/Portifolio/portifolio.html" target="_blank" rel="external">portfólio</a>. Seu próximo projeto extraordinário começa aqui! 🚀</p>
-
+<p>Explore meu mundo de criatividade e inovação no <a href="https://lramossantos.github.io/Portifolio/portifolio.html" target="_blank">portfólio completo</a>. Cada projeto é uma jornada única! 🚀</p>
 
 ## Habilidades Principais
 
