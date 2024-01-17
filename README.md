@@ -27,7 +27,7 @@ Estou em busca de uma oportunidade para aplicar meus conhecimentos e crescer pro
 
 ## Contato
 
-Estou disponível para entrevistas e pronto para começar a contribuir. Entre em contato através do meu e-mail: leonardoramosdossantos92@gmail.com ou conecte-se comigo no [LinkedIn](www.linkedin.com/in/leonardo-ramos-dos-santos-8b2895242).
+Estou disponível para entrevistas e pronto para começar a contribuir. Entre em contato através do meu e-mail: leonardoramosdossantos92@gmail.com ou conecte-se comigo no <a href="http://www.linkedin.com/in/leonardo-ramos-dos-santos-8b2895242">Linkedin</a>.
 
 Agradeço antecipadamente pela consideração e estou ansioso para explorar oportunidades de colaboração.
 
