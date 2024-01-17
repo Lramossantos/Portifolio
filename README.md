@@ -6,6 +6,9 @@ Olá, meu nome é Leonardo Ramos dos Santos, e estou em busca de oportunidades p
 
 Sou formado em Ciências da Computação e trago uma paixão genuína por tecnologia e inovação. Estou ansioso para aplicar os conhecimentos adquiridos durante minha formação acadêmica em um ambiente prático.
 
+<p>Descubra um mundo de criatividade e inovação em meu <a href="https://lramossantos.github.io/Portifolio/portifolio.html" target="_blank" rel="external">portfólio</a>. Seu próximo projeto extraordinário começa aqui! 🚀</p>
+
+
 ## Habilidades Principais
 
 - **Desenvolvimento Front-end:** HTML, CSS, JavaScript
@@ -27,7 +30,8 @@ Estou em busca de uma oportunidade para aplicar meus conhecimentos e crescer pro
 
 ## Contato
 
-Estou disponível para entrevistas e pronto para começar a contribuir. Entre em contato através do meu e-mail: leonardoramosdossantos92@gmail.com ou conecte-se comigo no <a href="http://www.linkedin.com/in/leonardo-ramos-dos-santos-8b2895242" target="_blank" rel="external">Linkedin</a>.
+Estou disponível para entrevistas e pronto para começar a contribuir. Entre em contato através do meu e-mail: 
+<a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser&ec=asw-gmail-globalnav-signin&theme=glif">leonardoramosdossantos92@gmail.com</a> ou conecte-se comigo no <a href="http://www.linkedin.com/in/leonardo-ramos-dos-santos-8b2895242" target="_blank" rel="external">Linkedin</a>.
 
 Agradeço antecipadamente pela consideração e estou ansioso para explorar oportunidades de colaboração.
 
