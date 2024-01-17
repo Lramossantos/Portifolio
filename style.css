@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+/*font-family: 'Londrina Solid', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*font-family: 'Quicksand', sans-serif;*/
+
+:root {
+    --cor1: #8EA6BD;
+    --cor2: #75808A;
+    --cor3: #75808A;
+    --cor4: #85BCF0;
+    --cor5: #384857;
+    --cor6: #1D2F40;
+}
+
+* {
+    margin: auto;
+    text-align: justify;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    background-color: var(--cor6);
+    padding: 10px;
+    min-width: 320px;
+    max-width: 2560px;
+    text-align: center;    
+}
+
+nav h1 {
+    display: inline-block;
+    font-weight: lighter;
+}
+
+nav p {
+    display: inline-block;
+    margin: auto;
+    padding-right: 15px;
+
+}
+
+nav a {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-right: 1px;
+
+}
+
+nav a:hover {
+    color: var(--cor4);
+}
+
+header {    
+    background-image: url('imagens/Header/papel04.jpg');
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    min-width: 320px;
+    max-width: 2560px;
+
+    box-shadow: 0px 8px 20px var(--cor5);
+
+}
+
+#foto-perfil {
+    border-width: 2.5px;
+    border-style: solid;
+    border-color: #85BCF0;
+    border-radius: 100%;
+    width: 130px;
+    height: 130px;
+}
+
+header p {
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: 'Londrina Solid', sans-serif;
+    letter-spacing: 2.5px;
+    text-shadow: 0px 0px 20px var(--cor6);
+    color: #85BCF0;
+    text-align: center;
+    font-weight: none;
+
+}
+
+header h2 {
+    background-color: #1d2f407a;
+    margin: auto;
+    width: 250px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0px 40px 40px 0px;
+    text-shadow: 0px 0px 20px var(--cor6);
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+
+header img {
+    background-image: url('imagens/Header/azul.jpg');
+    border-radius: 10px;   
+
+}
+
+/*Zoom nos Botões*/
+.imagem:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;    
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px white;    
+}
+
+/*Botões grandes*/
+.logo {
+    border-width: 3px;    
+    border-color: #85BCF0;    
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-left: 20px;
+    margin: auto;
+    margin: 0px 3px ;
+    padding: 0px 0px 0px 0px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+    max-width: 700px;
+    min-height: 330px;
+    max-height: 900px;    
+    padding: 10px;
+}
+
+main h1 {
+    font-family: 'Londrina Solid', sans-serif;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+}
+
+main h2 {
+    font-family: 'Londrina Solid', sans-serif;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+main p {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+
+main > p > strong > a {
+    text-decoration: none;    
+    color: black;
+}
+
+aside {
+    text-align: center;
+
+}
+
+aside p {
+    display: inline-block;
+}
+
+aside a {
+    font-size: 10px;
+    color: var(--cor3);
+    text-decoration: none;
+
+}
+
+/*OBS: Os FOOTERS estão na ordem decrescente*/
+.footer-02 {
+    text-align: center;
+    margin: auto;    
+}
+
+.espaçamento {
+    margin-bottom: 80px;
+}
+
+div > span {
+    color: var(--cor4);
+}
+
+
+.footer-01 {
+    background-image: linear-gradient(to right, var(--cor6), var(--cor3), var(--cor3), var(--cor5), var(--cor6));
+    font-size: small;
+    color: var(--cor1);
+    text-align: right; 
+
+    padding-top: 3px;
+    padding-right: 46.5px;
+
+    min-width: 320px;
+    max-width: 2560px;
+    
+}
+
+.footer-01 img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;    
+}
+
+footer {    
+    background-image: url('imagens/Footer/papel02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    min-height: 100px;    
+    min-width: 320px;
+    max-width: 2560px;
+    margin: auto;
+}
+
+footer h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+}
+
+footer p {
+    text-align: center;    
+    color: white;
+    padding-top: 20px;
+}
+
+span {
+    color: var(--cor4);
+}
+
+.logos {
+    border-width: 3px;
+    border-color: #85BCF0;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    display: inline;
+    margin-left: 20px;
+    margin: 0px 5px;
+}
+
