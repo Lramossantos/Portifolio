@@ -64,9 +64,16 @@ nav a:hover {
 }
 
 #quadro1 {
-
+    display: block;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;    
 }
 
 #quadro2 {
+    display: block;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
     
 }
