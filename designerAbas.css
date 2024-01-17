@@ -24,6 +24,13 @@
     text-decoration: none;
 }
 
+body{
+    background-image: url('imagens/Header/papel03.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 nav {
     background-color: var(--cor6);
     padding: 10px;
