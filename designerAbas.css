@@ -24,7 +24,7 @@
     text-decoration: none;
 }
 
-body{
+body {
     background-image: url('imagens/Header/papel04.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -36,7 +36,7 @@ nav {
     padding: 10px;
     min-width: 320px;
     max-width: 2560px;
-    text-align: center;    
+    text-align: center;
 }
 
 nav h1 {
@@ -63,17 +63,23 @@ nav a:hover {
     color: var(--cor4);
 }
 
-#quadro1 {
-    display: block;
-    padding: 10px;
+#quadro1 {    
+    width: 500px;
+    height: 500px;
+    display: inline-block;
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;    
+    border-bottom-left-radius: 5px;
+    color: var(--cor4);
+    background-color: var(--cor6);
 }
 
-#quadro2 {
-    display: block;
-    padding: 10px;
+#quadro2 {    
+    width: 500px;
+    height: 500px;
+    display: inline-block;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    
+    border-radius: 10px;
+    color: var(--cor6);
+    background-color: var(--cor4);
 }
