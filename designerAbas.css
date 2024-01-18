@@ -69,6 +69,9 @@ nav a:hover {
     display: inline-block;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
     color: var(--cor4);
     background-color: var(--cor6);
 }
@@ -77,9 +80,12 @@ nav a:hover {
     width: 500px;
     height: 500px;
     display: inline-block;
+
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
     color: var(--cor6);
     background-color: var(--cor4);
 }
