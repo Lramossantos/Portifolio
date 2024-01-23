@@ -7,12 +7,14 @@
 /*font-family: 'Quicksand', sans-serif;*/
 
 :root {
-    --cor1: #8EA6BD;
-    --cor2: #75808A;
-    --cor3: #75808A;
-    --cor4: #85BCF0;
-    --cor5: #384857;
-    --cor6: #1D2F40;
+    --cor1: #8ea6bd;
+    --cor2: #75808A;    
+    --cor3: #85BCF0;
+    --cor4: #384857;
+    --cor5: #1D2F40;
+    --cor6: #ffffff;
+    --cor7: #f5f5f5;
+    --cor8: #000000;
 }
 
 * {
@@ -25,7 +27,7 @@
 }
 
 nav {
-    background-color: var(--cor6);
+    background-color: var(--cor5);
     padding: 10px;
     min-width: 320px;
     max-width: 2560px;
@@ -53,7 +55,7 @@ nav a {
 }
 
 nav a:hover {
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 header {    
@@ -68,7 +70,7 @@ header {
     min-width: 320px;
     max-width: 2560px;
 
-    box-shadow: 0px 8px 20px var(--cor5);
+    box-shadow: 0px 8px 20px var(--cor4);
 
 }
 
@@ -91,7 +93,7 @@ header p {
 header h1 {
     font-family: 'Londrina Solid', sans-serif;
     letter-spacing: 2.5px;
-    text-shadow: 0px 0px 20px var(--cor6);
+    text-shadow: 0px 0px 20px var(--cor5);
     color: #85BCF0;
     text-align: center;
     font-weight: none;
@@ -143,14 +145,14 @@ header img {
 main {
     background-color: white;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     margin-top: 35px;
     padding-left: 10px;
     padding-right: 10px;
     min-width: 300px;
     max-width: 700px;
     min-height: 330px;
-    max-height: 900px;    
+    max-height: 1118px;
     padding: 10px;
 }
 
@@ -174,6 +176,7 @@ main p {
     font-weight: lighter;
     text-indent: 2em;
     line-height: 1.5;
+    font-size: 20px;
 }
 
 main > p > strong > a {
@@ -192,7 +195,7 @@ aside p {
 
 aside a {
     font-size: 10px;
-    color: var(--cor3);
+    color: var(--cor2);
     text-decoration: none;
 
 }
@@ -208,12 +211,12 @@ aside a {
 }
 
 div > span {
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 
 .footer-01 {
-    background-image: linear-gradient(to right, var(--cor6), var(--cor3), var(--cor3), var(--cor5), var(--cor6));
+    background-image: linear-gradient(to right, var(--cor5), var(--cor2), var(--cor2), var(--cor4), var(--cor5));
     font-size: small;
     color: var(--cor1);
     text-align: right; 
@@ -239,16 +242,15 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    min-height: 100px;    
+    min-height: 100px;     
     min-width: 320px;
     max-width: 2560px;
-    margin: auto;
+    margin: auto;    
 }
 
 footer h1 {
     color: white;
-    text-align: center;
-    margin-bottom: 50px;
+    text-align: center;    
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
 }
@@ -260,7 +262,7 @@ footer p {
 }
 
 span {
-    color: var(--cor4);
+    color: var(--cor3);
 }
 
 .logos {
@@ -272,5 +274,45 @@ span {
     display: inline;
     margin-left: 20px;
     margin: 0px 5px;
+}
+
+#paper h1 {    
+    margin: 0px;
+    padding: 0px;
+    line-height: 20px;
+    color: var(--cor8);
+    font-size: 14px;
+    text-align: left;
+}
+
+#paper p {
+    margin: 0px;
+    padding: 5px;
+    width: 180px;    
+    color: var(--cor2);
+    font-size: 13px;
+    text-align: justify;
+    text-indent: 20px;
+    border: 1px solid var(--cor3);
+    margin: 3px;
+}
+
+#paper {
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--cor6);
+    color: var(--cor5);
+    width: 190px;
+    
+    border-style: groove;
+}
+
+#tamanho {
+    font-size: 12px;
+}
+
+#tamanhoContatos {
+    max-height: 1630px;
 }
 
