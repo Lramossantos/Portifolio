@@ -60,6 +60,7 @@ nav a:hover {
 
 header {
     background-image: url('imagens/Header/papel04.jpg');
+    background-color: var(--cor5);
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
