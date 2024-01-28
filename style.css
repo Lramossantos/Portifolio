@@ -175,10 +175,10 @@ main p {
     font-weight: lighter;
     text-indent: 2em;
     line-height: 1.5;
-    font-size: 20px;    
+    font-size: 20px;        
 }
 
-main>p>strong>a {
+main > p > strong > a {
     text-decoration: none;
     color: black;
 }
@@ -217,6 +217,7 @@ main img {
     box-shadow: 0px 0px 10px black;
     margin-bottom: 30px;
     margin-top: 30px;
+    width: 100%;
 }
 
 main li a {
@@ -391,7 +392,7 @@ span {
 }
 
 .footerPortifolio {
-    font-size: 0.9vw;   
+    font-size: 1.5vw;   
     min-height: 20px;
     padding-top: 5px;
     margin: 0px;
