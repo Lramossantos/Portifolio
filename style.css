@@ -117,7 +117,6 @@ header h2 {
 header img {
     background-image: url('imagens/Header/azul.jpg');
     border-radius: 10px;
-
 }
 
 /*Zoom nos Botões*/
@@ -393,8 +392,14 @@ span {
 }
 
 .footerPortifolio {
-    font-size: 1.5vw;   
+    font-size: 1vw;         
     min-height: 20px;
     padding-top: 5px;
     margin: 0px;
+}
+
+.footerPortifolio > p {
+    min-width: 400px;
+    font-size: 1.1vw;
+    margin: auto;
 }
