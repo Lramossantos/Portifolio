@@ -8,7 +8,7 @@
 
 :root {
     --cor1: #8ea6bd;
-    --cor2: #75808A;    
+    --cor2: #75808A;
     --cor3: #85BCF0;
     --cor4: #384857;
     --cor5: #1D2F40;
@@ -31,7 +31,7 @@ nav {
     padding: 10px;
     min-width: 320px;
     max-width: 2560px;
-    text-align: center;    
+    text-align: center;
 }
 
 nav h1 {
@@ -58,7 +58,7 @@ nav a:hover {
     color: var(--cor3);
 }
 
-header {    
+header {
     background-image: url('imagens/Header/papel04.jpg');
     background-position: left;
     background-size: cover;
@@ -117,28 +117,28 @@ header h2 {
 
 header img {
     background-image: url('imagens/Header/azul.jpg');
-    border-radius: 10px;   
+    border-radius: 10px;
 
 }
 
 /*Zoom nos Botões*/
 .imagem:hover {
     transform: scale(1.2);
-    transition: transform 0.3s ease-in-out;    
+    transition: transform 0.3s ease-in-out;
     transition-duration: 0.5s;
-    box-shadow: 0px 0px 20px white;    
+    box-shadow: 0px 0px 20px white;
 }
 
 /*Botões grandes*/
 .logo {
-    border-width: 3px;    
-    border-color: #85BCF0;    
+    border-width: 3px;
+    border-color: #85BCF0;
     width: 50px;
     height: 50px;
     display: inline;
     margin-left: 20px;
     margin: auto;
-    margin: 0px 3px ;
+    margin: 0px 3px;
     padding: 0px 0px 0px 0px;
 }
 
@@ -180,8 +180,8 @@ main p {
     font-size: 20px;
 }
 
-main > p > strong > a {
-    text-decoration: none;    
+main>p>strong>a {
+    text-decoration: none;
     color: black;
 }
 
@@ -198,16 +198,16 @@ main ul {
     border-radius: 5px;
     border: 2px groove var(--cor5);
     box-shadow: 0px 0px 15px var(--cor1);
-    list-style: none; 
+    list-style: none;
 }
 
-main li{
+main li {
     text-align: center;
 }
 
 main li:hover {
     text-align: center;
-    background-color: var(--cor3);    
+    background-color: var(--cor3);
     border-radius: 3px;
     transition: 0.5s;
 }
@@ -216,7 +216,7 @@ main li a {
     color: var(--cor6);
 }
 
-main li a:hover{
+main li a:hover {
     color: var(--cor5);
 }
 
@@ -239,14 +239,14 @@ aside a {
 /*OBS: Os FOOTERS estão na ordem decrescente*/
 .footer-02 {
     text-align: center;
-    margin: auto;    
+    margin: auto;
 }
 
 .espaçamento {
     margin-bottom: 80px;
 }
 
-div > span {
+div>span {
     color: var(--cor3);
 }
 
@@ -255,46 +255,46 @@ div > span {
     background-image: linear-gradient(to right, var(--cor5), var(--cor2), var(--cor2), var(--cor4), var(--cor5));
     font-size: small;
     color: var(--cor1);
-    text-align: right; 
+    text-align: right;
 
     padding-top: 3px;
     padding-right: 46.5px;
 
     min-width: 320px;
     max-width: 2560px;
-    
+
 }
 
-.footer-01 img{
+.footer-01 img {
     margin-top: 10px;
     margin-bottom: 10px;
     width: 35px;
-    height: 35px;    
+    height: 35px;
 }
 
-footer {    
+footer {
     background-image: url('imagens/Footer/papel02.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;        
+    color: white;
     min-width: 340px;
     max-width: 2560px;
     min-height: 280px;
     max-height: 2560px;
-    margin: auto;  
-    padding: 20px;  
+    margin: auto;
+    padding: 20px;
 }
 
 footer h1 {
     color: white;
-    text-align: center;    
+    text-align: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
 }
 
 footer p {
-    text-align: center;     
+    text-align: center;
     color: white;
     padding-top: 20px;
 
@@ -321,24 +321,24 @@ span {
     margin-top: 30px;
     background-color: var(--cor5);
     color: var(--cor5);
-    width: 190px;    
+    width: 190px;
     border-style: groove;
 }
 
-#paper h1 {    
+#paper h1 {
     margin: 0px;
     padding: 0px;
     line-height: 20px;
     color: var(--cor3);
     font-size: 14px;
     text-align: left;
-    
+
 }
 
 #paper p {
     margin: 0px;
     padding: 5px;
-    width: 180px;    
+    width: 180px;
     color: var(--cor6);
     font-size: 13px;
     text-align: justify;
@@ -350,12 +350,12 @@ span {
 #paper a {
     margin: 0px;
     padding: 5px 3px 0px 0px;
-    width: 180px;    
-    color: var(--cor6);                
+    width: 180px;
+    color: var(--cor6);
 }
 
 #paper p:hover {
-    background-color: var(--cor3);    
+    background-color: var(--cor3);
     border-radius: 3px;
     transition: 0.5s;
 
@@ -376,4 +376,3 @@ span {
     min-height: 10px;
     max-height: 160px;
 }
-
