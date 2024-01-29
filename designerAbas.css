@@ -67,8 +67,7 @@ nav a:hover {
     color: var(--cor3);
 }
 
-main {
-    
+main {    
     background-image: linear-gradient(to top, var(--cor7), var(--cor6));
     margin: auto;
     text-align: justify;
