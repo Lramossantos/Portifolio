@@ -64,11 +64,11 @@ header {
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 300px;
+    min-height: 280px;    
     margin: auto;
     text-align: center;
     padding: 10px;
-    min-width: 320px;
+    min-width: 280px;
     max-width: 2560px;
     box-shadow: 0px 8px 20px var(--cor4);
 }
@@ -267,7 +267,7 @@ aside a {
     margin-bottom: 80px;
 }
 
-div>span {
+div > span {
     color: var(--cor3);
 }
 
@@ -281,8 +281,7 @@ div>span {
     padding-top: 3px;
     padding-right: 46.5px;
 
-    min-width: 320px;
-    max-width: 2560px;
+    
 
 }
 
@@ -299,10 +298,7 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    min-width: 340px;
-    max-width: 2560px;
-    min-height: 280px;
-    max-height: 2560px;
+    
     margin: auto;
     padding: 20px;
 }
@@ -393,13 +389,13 @@ span {
 
 .footerPortifolio {
     font-size: 1vw;         
-    min-height: 20px;
+    
     padding-top: 5px;
     margin: 0px;
 }
 
 .footerPortifolio > p {
-    min-width: 400px;
+    
     font-size: 1.1vw;
     margin: auto;
 }
