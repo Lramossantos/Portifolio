@@ -298,10 +298,12 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
-    color: white;
-    
+    position: absolute;
+    top: 100;
+    left: 0;
+    bottom: 1;
+    width: 100%;    
+    color: white;    
     padding: 10px 0;
 }
 
@@ -396,6 +398,6 @@ span {
 
 .footerPortifolio > p {    
     color: var(--cor1);
-    font-size: 1vw;
+    font-size: 1.3vw;
     margin: auto;
 }
