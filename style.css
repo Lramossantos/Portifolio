@@ -282,9 +282,7 @@ div > span {
     min-width: 280px;
     max-width: 2560px;
     padding-top: 3px;
-    padding-right: 46.5px;
-
-    
+    padding-right: 46.5px;   
 
 }
 
@@ -300,11 +298,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
+    
     color: white;
-    min-width: 280px;
-    max-width: 2560px;    
-    margin: auto;
-    padding: 20px;
+    
+    padding: 10px 0;
 }
 
 footer h1 {
@@ -317,7 +315,7 @@ footer h1 {
 footer p {
     text-align: center;
     color: white;
-    padding-top: 20px;
+    padding-top: 20px;    
 
 }
 
@@ -391,13 +389,13 @@ span {
     max-height: 1630px;
 }
 
-.footerPortifolio {
-    font-size: 1vw;     
+.footerPortifolio {    
     padding-top: 5px;
     margin: 0px;
 }
 
 .footerPortifolio > p {    
-    font-size: 1.1vw;
+    color: var(--cor1);
+    font-size: 2.1vw;
     margin: auto;
 }
